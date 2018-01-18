@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration User</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="mobile-hide">
+                <div class="col-sm-6 col-2 wondefull-bg text-white py-2 d-flex align-items-center justify-content-center " id="left">
+                   <!-- <h5 class="hidden-xs-down">M</h5> -->
+                   <img src="https://lh3.googleusercontent.com/fkgyZWuvws4WNxeBC0jSFJ50kAiZLAt3GPvTRCYM8st9GZgWYiAB5QaPOsH7kVcWFiZFNbzI3Ba-Ne1j6c0-yg=w1024" class="img-fluid"/>
+                </div>
+                </div>
+                <div class="col offset-sm-6 py-2">
+                    <div class="row justify-content-center h-100">
+                        <div class="col-md-10 my-auto">
+                            <div class="title-form">
+                                <p>Create Account Managix</p>
+                            </div>
+                            <form class="text-right my-auto padding-mobile">
+                                <div class="form-group row">
+                                    <label for="example-search-input" class="col-3 col-form-label">First Name</label>
+                                    <div class="col-9"><input type="text" class="form-control" placeholder="Enter first name" required=""></div>
+                                </div>
+                                <div class="form-group row has-success">
+                                    <label for="example-search-input" class="col-3 col-form-label">Last Name</label>
+                                    <div class="col-9"><input type="text" class="form-control" placeholder="Enter last name" required=""></div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-search-input" class="col-3 col-form-label">Username</label>
+                                    <div class="col-9"><input type="text" class="form-control" placeholder="Enter Username" required=""></div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-search-input" class="col-3 col-form-label">E-mail</label>
+                                    <div class="col-9"><input type="email" class="form-control" placeholder="Enter email" required=""></div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-search-input" class="col-3 col-form-label">Password</label>
+                                    <div class="col-9"><input type="Password" class="form-control" placeholder="Password" required=""></div>
+                                </div>
+                                <div class="form-group row null">
+                                    <label for="example-search-input" class="col-3 col-form-label">Confrim Password</label>
+                                    <div class="col-9"><input type="password" class="form-control" placeholder="Password" required=""></div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-search-input" class="col-3 col-form-label">Period</label>
+                                    <div class="col-9">
+                                        <select class="form-control" required="">
+                                            <option>Choose..</option>
+                                            <option value="1">1 Month</option>
+                                            <option value="2">2 Month</option>
+                                            <option value="3">3 Month</option>
+                                            <option value="4">4 Month</option>
+                                            <option value="5">5 Month</option>
+                                            <option value="6">6 Month</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-search-input" class="col-3 col-form-label">Time Zone</label>
+                                    <div class="col-9">
+                                        <select class="form-control" required="">
+                                            <option>Choose..</option>
+                                            <option value="1">Asia/Jakarta - Indonesia (ID)</option>
+                                            <option value="2">Asia/Makasar - Indonesia (ID)</option>
+                                            <option value="3">Asia/Pontianak - Indonesia (ID)</option>
+                                            <option value="4">Asia/Jayapura - Indonesia (ID)</option>
+                                            <option value="5">Erope/Dublin - Ireland (IE)</option>
+                                            <option value="6">Asia/Tokyo - Japan (JPN)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="example-search-input" class="col-3 col-form-label">Type</label>
+                                    <div class="col-9">
+                                        <select class="form-control" required="">
+                                            <option>Choose..</option>
+                                            <option value="1">Tester</option>
+                                            <option value="2">Admin</option>
+                                            <option value="3">Client</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <p class="text-danger">*Note: Button will appear when all filed has beed fill</p>
+                                <div class="text-right">
+                                    <button type="submit" class="btn btn-primary" disabled="">Create Account</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Script -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
